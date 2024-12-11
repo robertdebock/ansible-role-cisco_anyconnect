@@ -1,0 +1,21 @@
+---
+
+argument_specs:
+  main:
+    short_description: "Install and configure cisco_anyconnect on your system."
+    description: >
+      Install and configure cisco_anyconnect on your system.
+    author: Robert de Bock
+    options:
+      cisco_anyconnect_X:
+        type: "str"
+        default: "DEFAULT"
+        description: "DESCRIPTION"
+      cisco_anyconnect_Y:
+        type: "list"
+        default: []
+        description: "DESCRIPTION"
+      cisco_anyconnect_Z:
+        type: "bool"
+        default: true
+        description: "DESCRIPTION"
