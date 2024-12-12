@@ -13,7 +13,7 @@ argument_specs:
         description: "The directory where temporary files will be stored during installation"
       cisco_anyconnect_download_url:
         type: "str"
-        default: "https://download.acsu.buffalo.edu/index.php?sw=linux/cisco-secure-client-linux64-5.1.3.62-predeploy-k9.tar.gz"
+        default: ""
         description: The URL where the Cisco Anyconnect package can be downloaded from
       cisco_anyconnect_install_dir:
         type: "str"
