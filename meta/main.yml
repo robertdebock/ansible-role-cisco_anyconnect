@@ -2,7 +2,7 @@
 galaxy_info:
   author: robertdebock
   role_name: cisco_anyconnect
-  description: Install and configure cisco_anyconnect on your system.
+  description: Install and configure Cisco AnyConnect Secure Mobility Client.
   license: Apache-2.0
   company: none
   min_ansible_version: "2.12"
@@ -31,16 +31,11 @@ galaxy_info:
     - ciscoanyconnect
     - application
     - cloud
-    - database
-    - development
     - infrastructure
     - linux
-    - monitoring
     - networking
-    - storage
     - security
     - system
     - tools
-    - windows
 
 dependencies: []

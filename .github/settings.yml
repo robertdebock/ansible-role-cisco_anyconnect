@@ -3,6 +3,6 @@
 # Ansible managed
 #
 repository:
-  description: Install and configure cisco_anyconnect on your system.
+  description: Install and configure Cisco AnyConnect Secure Mobility Client.
   homepage: https://robertdebock.nl/
-  topics: ciscoanyconnect, application, cloud, database, development, infrastructure, linux, monitoring, networking, storage, security, system, tools, windows, ansible, molecule, tox, playbook
+  topics: ciscoanyconnect, application, cloud, infrastructure, linux, networking, security, system, tools, ansible, molecule, tox, playbook

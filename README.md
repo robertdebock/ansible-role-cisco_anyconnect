@@ -1,6 +1,6 @@
 # [Ansible role cisco_anyconnect](#cisco_anyconnect)
 
-Install and configure cisco_anyconnect on your system.
+Install and configure Cisco AnyConnect Secure Mobility Client.
 
 |GitHub|GitLab|Downloads|Version|
 |------|------|---------|-------|
