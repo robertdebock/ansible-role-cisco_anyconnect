@@ -9,4 +9,3 @@ cisco_anyconnect_download_url: "https://download.acsu.buffalo.edu/index.php?sw=l
 
 # The directory where Cisco Anyconnect will be installed
 cisco_anyconnect_install_dir: /opt
-

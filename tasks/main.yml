@@ -46,7 +46,8 @@
 
 - name: Run Cisco Anyconnect installer
   ansible.builtin.shell:
-    cmd: echo "y" | ./vpn_install.sh
+    cmd: set -o pipefail && echo "y" | ./vpn_install.sh
     chdir: "{{ cisco_anyconnect_tmp_dir }}/cisco-secure-client-linux64-{{ cisco_anyconnect_version }}/vpn"
     creates: "{{ cisco_anyconnect_install_dir }}/cisco-secure-client-linux64-{{ cisco_anyconnect_version }}/anyconnect"
+    executable: /bin/bash
   become: true
