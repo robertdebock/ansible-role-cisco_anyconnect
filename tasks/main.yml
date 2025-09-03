@@ -38,6 +38,10 @@
         url: "{{ cisco_anyconnect_download_url }}"
         dest: "{{ cisco_anyconnect_tmp_dir }}/cisco-secure-client-linux64-{{ cisco_anyconnect_version }}-predeploy-k9.tar.gz"
         mode: "0644"
+      register: download_result
+      until: download_result is succeeded
+      retries: 3
+      delay: 10
 
     - name: Extract Cisco Anyconnect package
       ansible.builtin.unarchive:
