@@ -1,4 +1,4 @@
-# [Ansible role cisco_anyconnect](#cisco_anyconnect)
+# [Ansible role cisco_anyconnect](#ansible-role-cisco_anyconnect)
 
 Install and configure Cisco AnyConnect Secure Mobility Client.
 
@@ -49,7 +49,8 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 cisco_anyconnect_tmp_dir: /tmp/cisco-anyconnect
 
 # The URL where the Cisco Anyconnect package can be downloaded from
-cisco_anyconnect_download_url: "https://its.gmu.edu/wp-content/uploads/cisco-secure-client-linux64-5.1.3.62-predeploy-k9.tar.gz"
+# cisco_anyconnect_download_url: "https://its.gmu.edu/wp-content/uploads/cisco-secure-client-linux64-5.1.3.62-predeploy-k9.tar.gz"
+cisco_anyconnect_download_url: "https://www.sanidadnaval.cl/wp-content/uploads/vpn/cisco-secure-client-linux64-5.1.3.62-predeploy-k9.tar.gz"
 # Since this package is not typically available from a public URL, you can host your own copy and reference it here.
 # cisco_anyconnect_download_url: "https://example.com/downloads/cisco-secure-client-linux64-5.1.3.62-predeploy-k9.tar.gz"
 
@@ -72,7 +73,7 @@ The following roles are used to prepare a system. You can prepare your system in
 
 ## [Context](#context)
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://robertdebock.nl/) for further information.
+This role is part of many compatible roles. Have a look at [the documentation of these roles](https://robertdebock.nl/) for further information.
 
 Here is an overview of related roles:
 ![dependencies](https://raw.githubusercontent.com/robertdebock/ansible-role-cisco_anyconnect/png/requirements.png "Dependencies")
@@ -90,13 +91,13 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
 |[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
 
-The minimum version of Ansible required is 2.12, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done on:
 
 - The previous version.
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-cisco_anyconnect/issues).
+If you find issues, please register them on [GitHub](https://github.com/robertdebock/ansible-role-cisco_anyconnect/issues).
 
 ## [License](#license)
 
